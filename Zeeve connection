@@ -1,0 +1,4 @@
+from web3 import Web3
+infura_url = "https://app.zeeve.io/shared-api/poly/8f124a1e1fb31ed337809f7f496f6e1887d04ebb28a71812/"
+web3 = Web3(Web3.HTTPProvider(infura_url))
+print(web3.isConnected())
